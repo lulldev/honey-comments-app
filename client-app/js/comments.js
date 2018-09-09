@@ -1,4 +1,4 @@
-const CommentForm = {
+﻿const CommentForm = {
 
   formSelector: 'comment-form',
 
@@ -7,7 +7,7 @@ const CommentForm = {
   },
 
   sendComment(username, email, comment) {
-    fetch('/comments-page/api/comments.php', {
+    fetch('/api/comments.php', {
       method: 'post',
       headers: {
         'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'  
@@ -31,7 +31,7 @@ const CommentBlock = {
   updateCommentsList() {
     const formElement = document.getElementById(CommentBlock.commentBlockSelector);
     formElement.innerHTML = '';
-    fetch('/comments-page/api/comments.php?action=fetch')
+    fetch('/api/comments.php?action=fetch')
       .then(res => res.json())
       .then(comments => {
         
