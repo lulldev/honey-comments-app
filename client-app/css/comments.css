@@ -1,0 +1,172 @@
+body {
+  background-color: #F6F6F7;
+}
+
+.jumbotron-comments {
+  padding: 25px;
+  background-color: #2D3136;
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+
+.header-logo {
+  min-height: 80px;
+}
+
+.header-logo .logo {
+  width: 200px;
+  height: 40px;
+}
+
+.letter-icon-block {
+  height: 160px;
+  text-align: center;
+}
+
+.letter-icon {
+  width: 140px;
+}
+
+#comment-form label {
+  color: #D7D7D7;
+  font-size: 24px;
+}
+
+#comment-form .text-danger {
+  color: #BC3A3F;
+}
+
+#comment-form .form-fields {
+  margin-bottom: 25px;
+}
+
+#comment-form .form-control {
+  background-color: #2F3338;
+  border-color: #4B4F53;
+  -webkit-appearance: none; 
+  box-shadow: none !important;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+#comment-form .form-control {
+  background-color: #2F3338;
+  border-color: #4B4F53;
+  color: #D7D7D7;
+}
+
+#comment-form input.form-control {
+  height: 60px;
+}
+
+#comment-form .form-control:focus {
+  border-color: #733539;
+}
+
+#comment-form #comment {
+  min-height: 180px;
+  resize: none;
+}
+
+#comment-form #send-comment {
+  background-color: #BC3A3F;
+  color: #fff;
+}
+
+.comments {
+  padding-bottom: 60px;
+}
+
+.comments .comments-title {
+  text-align: center;
+  padding: 50px;
+}
+
+.comment .card-header {
+  color: #fff;
+  font-weight: 500;
+}
+
+.comment .card-body {
+  min-height: 200px;
+}
+
+.comment .card-body .email {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.comment.odd .card-header {
+  background-color: #4B596B;
+}
+
+.comment.odd .card-body {
+  background-color: #E9EEF3;
+}
+
+.comment.odd .card-body .email {
+  color: #6D737B;
+}
+
+.comment.odd .card-body .comment {
+  color: #767582;
+}
+
+.comment.even .card-header {
+  background-color: #5BAC56;
+}
+
+.comment.even .card-body {
+  background-color: #DEEBDE;
+}
+
+.comment.even .card-body .email {
+  color: #5BAC56;
+}
+
+.comment.even .card-body .comment {
+  color: #768275;
+}
+
+.footer {
+  background-color: #2D3136;
+  border-radius: 0px;
+  padding: 20px;
+}
+
+.footer-logo {
+  min-height: 80px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footer-logo .logo {
+  width: 180px;
+  height: 35px;
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.social-icons .icon {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.social-icons .icon.vk {
+  background-image: url(../images/vk-icon.png);
+}
+
+.social-icons .icon.fb {
+  background-image: url(../images/fb-icon.png);
+}

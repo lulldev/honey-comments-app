@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Сен 08 2018 г., 17:27
+-- Время создания: Сен 09 2018 г., 13:46
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `id` int(11) NOT NULL,
   `username` varchar(20) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `comment` text NOT NULL,
+  `comment` varchar(80) NOT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
